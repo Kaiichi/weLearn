@@ -1,6 +1,13 @@
-nav ul ul {
+nav ul ul{
     display: none;
 }
-nav ul ul:hover {
+nav ul:hover ul {
     display: block;
+}
+nav li li {
+    display: none;
+}
+nav li:hover li {
+    display: block;
+    transition: 4s all 4s;
 }
