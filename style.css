@@ -1,8 +1,26 @@
+html {
+    background-color: #140d07;
+}
 header {
-    background-color: #046376;
-    width: 100%;
-    height: 80px;
-    padding-top: 30px;
+    position: absolute;
+    background-color: #302521;
+    width: 99%;
+    height: 64px;
+    padding-top: 10px;
+    z-index: 2;
+    margin-top: 140px;
+    border-radius: 0px 0px 6px 6px;
+}
+.banniere {
+    position: absolute;
+    z-index: 1;
+    width: 99%;
+    border-radius: 0px 6px 0px 0px;
+}
+.logo {
+    width: 70px;
+    position: absolute;
+    z-index: 3;
 }
 nav ul ul{
     display: none;
@@ -12,7 +30,7 @@ nav ul:hover ul {
 }
 nav li li {
     display: none;
-    transition: 4s;
+    
 }
 nav li:hover li {
     display: block;
@@ -24,16 +42,22 @@ ul, li {
     list-style: none;
 }
 nav {
-    background-color: #034653;
     float: left;
     width: 400px;
     transition: 5s;
     border-radius: 6px;
-    transition-duration: 4s;
+    transition-duration: 2s;
+}
+nav:hover{
+    background-color: #3e3129;
 }
 nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-size: 20px;
+    transition-duration: 4s;
+}
+nav a:hover {
+    transition-duration: 4s;
 }
