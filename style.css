@@ -2,25 +2,28 @@ html {
     background-color: #140d07;
 }
 header {
-    position: absolute;
+    position: relative;
     background-color: #302521;
     width: 99%;
     height: 64px;
-    padding-top: 10px;
     z-index: 2;
-    margin-top: 140px;
     border-radius: 0px 0px 6px 6px;
 }
 .banniere {
-    position: absolute;
+    position: relative;
     z-index: 1;
     width: 99%;
     border-radius: 0px 6px 0px 0px;
 }
 .logo {
-    width: 70px;
     position: absolute;
+    width: 4%;
+    top: 0px;
+    left: 0px;
     z-index: 3;
+}
+.navigation {
+    position: relative;
 }
 nav ul ul{
     display: none;
